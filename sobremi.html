@@ -62,23 +62,28 @@
 					<footer id="footer">
 						<div class="inner">
 							<section>
-								<h2>¿Tienes alguna consulta?</h2>
+								<div class="form-container">
+								<h2>Conversemos!</h2>
 								<form method="post" action="#">
-									<div class="fields">
-										<div class="field half">
-											<input type="text" name="name" id="name" placeholder="Name" />
+									<div class="row aln-center">
+										<div class="col-6 col-12-xsmall">
+											<input type="text" name="demo-name" id="demo-name" value="" placeholder="Nombre" />
 										</div>
-										<div class="field half">
-											<input type="email" name="email" id="email" placeholder="Email" />
+										<div class="col-6 col-12-xsmall">
+											<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
 										</div>
-										<div class="field">
-											<textarea name="message" id="message" placeholder="Message"></textarea>
+										<div class="col-12">
+											<textarea name="demo-message" id="demo-message" placeholder="Escribe tu mensaje" rows="6"></textarea>
+										</div>
+										<div class="col-12" style="margin-top:20px,"> <!--Aplica un margen superior-->
+											<ul class="actions">
+												<li><input type="submit" value="Enviar mensaje" class="primary" /></li>
+												<li><input type="reset" value="" /></li>
+											</ul>
 										</div>
 									</div>
-									<ul class="actions">
-										<li><input type="submit" value="Send" class="primary" /></li>
-									</ul>
 								</form>
+							</div>
 							</section>
 							<section>
 								<h2>Follow</h2>
